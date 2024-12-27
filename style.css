@@ -24,5 +24,43 @@ ul{
    background-color: #1f2937;
    padding: 40px;
    align-items: center;
-   height: 100vh; 
+   gap: 0px;
+}
+.header2{
+    display: flex;
+    padding: 40px;
+    justify-content: space-between;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    align-items: start;
+    gap: 10px;
+}
+img{
+    height: 250px;
+    width: 200px;
+}
+.text{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+.subtext{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.image{
+    padding: 0;
+    margin: 0;
+}
+button{
+    font-family: Roboto;
+    color: white;
+    background: #3882F6;
+    border-radius: 8px;
+    border: 1px solid #3882F6;
+    padding: 8px 24px;
+    width: 100px;
 }
