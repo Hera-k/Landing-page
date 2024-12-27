@@ -38,11 +38,11 @@ ul{
     align-items: start;
     gap: 10px;
 }
-img{
+.image1{
     height: 250px;
     width: 200px;
 }
-.text{
+.text1{
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
@@ -51,9 +51,12 @@ img{
     font-size: 18px;
     color: #E5E7EB;
 }
-.image{
+.image1{
     padding: 0;
     margin: 0;
+    height: 200px;
+    width: 200px;
+    border: none;
 }
 button{
     font-family: Roboto;
@@ -63,4 +66,36 @@ button{
     border: 1px solid #3882F6;
     padding: 8px 24px;
     width: 100px;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: white;
+    align-items: center;
+    gap: 20px;
+}
+.title{
+    display: flex;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+.services{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 0px;
+}
+img{
+    height: 150px;
+    width: 175px;
+    border: 5px solid #3882F6;
+    border-radius: 8px;
+    padding: 0;
+    margin: 0;
+}
+.text2{
+    color: grey;
+    text-align: center;
 }
