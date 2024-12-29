@@ -76,6 +76,7 @@ button{
     display: flex;
     flex-direction: column;
     padding: 20px;
+    padding-bottom: 80px;
     background-color: white;
     align-items: center;
     gap: 20px;
