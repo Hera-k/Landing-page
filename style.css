@@ -104,7 +104,11 @@ img{
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
-    padding: 65px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 300px; 
+    padding-right: 300px;
+    align-content: center;
 }
 .text3{
     font-size: 36px;
