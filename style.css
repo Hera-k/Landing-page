@@ -137,9 +137,9 @@ img{
     background-color: #3882F6;
     padding: 40px;
     display: flex;
-    width: 600px;
+    width: 700px;
     margin: auto;
-    gap: 40px;
+    gap: 50px;
     height: 40px;
     justify-content: center;
     border-radius: 8px;
