@@ -15,10 +15,6 @@ ul{
     padding: 0;
     margin: 0;
 }
-.logo{
-    color: #F9FAF8;
-    font-size: 24px;
-}
 .header, .footer{
    display: flex;
    justify-content: space-between;
@@ -50,6 +46,7 @@ ul{
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    width: 200px;
 }
 .subtext{
     font-size: 18px;
@@ -60,6 +57,11 @@ ul{
     margin: 0;
     height: 300px;
     width: 300px;
+    border: none;
+}
+.image2{
+    height: 65px;
+    width: 65px;
     border: none;
 }
 button{
